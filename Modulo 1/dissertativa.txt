@@ -1,0 +1,11 @@
+O objetivo do algoritimo é calcular o resultado da multiplicação de um numero "n" pelo numero 9.
+Inicia-se o progama e se lê o valor de "n", em seguida, calcula o primeiro digito do resultado, subtraindo 1 de "n".
+Depois calcula o segundo digito, subtraindo "n" de 10.
+O resultado final se obtem multiplicando o primeiro digito por 10 e somando o segundo.
+
+Ex: 5 x 9:
+n = 5
+1° Operacao: n - 1 ou 5 - 1 = 4;
+2° Operacao: 10 - n ou 10 - 5 = 5;
+3° Operacao: Concatenar (1°Operacao , 2° Operacao)
+Resultado: Concatenar (4, 5) = 45
